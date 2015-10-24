@@ -12,10 +12,11 @@ body { 	width:100%;
 
 @media screen and (max-width: 768px) {
 #title {
-	margin: -11px 0;
+	margin: -11px auto;
 	height: 50px;
 	width: 100%;
  background: #eeeeee;
+
 }
 
 #logo {
@@ -71,7 +72,7 @@ body { 	width:100%;
     display: inline-block;
     font-weight: 400;
     margin-top: 22px;
-    margin-left: 35px;
+    margin-left: 2%;
     vertical-align: top;
     letter-spacing: 3.5px;
     line-height: 150%;
@@ -82,7 +83,7 @@ body { 	width:100%;
     display: inline-block;
     font-weight: 400;
     margin-top: 22px;
-    margin-left: 10px;
+    margin-left: 2%;
     vertical-align: top;
     letter-spacing: 3.5px;
     line-height: 150%;
