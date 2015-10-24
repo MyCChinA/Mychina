@@ -7,7 +7,7 @@ body { 	width:100%;
 	margin-left: 0; 
 	}
 
-#top {width:100%; margin-top: -12px;height: 5px;}
+#top {width:100%; margin-top: -10px;height: 5px;}
 
 
 @media screen and (max-width: 768px) {
@@ -41,7 +41,7 @@ body { 	width:100%;
     width: 130px;
     font-weight: 400;
     margin-top: 19px;
-    margin-left: 35px;
+    margin-left: 1%;
     vertical-align: top;
     letter-spacing: 2px;
     line-height: 10px;
@@ -71,7 +71,7 @@ body { 	width:100%;
     display: inline-block;
     font-weight: 400;
     margin-top: 22px;
-    margin-left: 1%;
+    margin-left: 35px;
     vertical-align: top;
     letter-spacing: 3.5px;
     line-height: 150%;
