@@ -11,8 +11,48 @@ body { 	width:100%;
 #top {width:100%; margin-top: -13px;height: 5px;}
 
 
+
+.title {
+    margin: -11px auto;
+    height:75px;
+    width: 850px; 
+}
+
+.logo {
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.logotype {
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-left: 2%;
+    vertical-align: top;
+    letter-spacing: 3.5px;
+    line-height: 150%;
+    font-size: 14px;
+}
+
+.csatype {
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-left: 2%;
+    vertical-align: top;
+    letter-spacing: 3.5px;
+    line-height: 150%;
+    font-size: 14px;
+}
+
+.typeformtitle {
+    font-weight: 300;
+}
+
+
 @media screen and (max-width: 768px) {
-#title {
+.title {
 	margin: -12px auto;
 	height: 50px;
 	width: 100%;
@@ -20,13 +60,13 @@ body { 	width:100%;
 
 }
 
-#logo {
+.logo {
 	width: 50px;
 	margin-left: 5%;
 	margin-top: 20px;
 }
 
-#logotype {
+.logotype {
     display: inline-block;
     width: 130px;
     font-weight: 400;
@@ -38,7 +78,7 @@ body { 	width:100%;
     font-size: 9.2px;
 }
 
-#csatype {
+.csatype {
     display: inline-block;
     width: 130px;
     font-weight: 400;
@@ -53,44 +93,4 @@ body { 	width:100%;
 #register{
     margin-top: 10px;
 }
-
-
-}
-
-.titlef {
-    margin: -11px auto;
-    height:75px;
-    width: 850px; 
-}
-
-.logof {
-	width: 80px;
-	margin-left: 10px;
-	margin-top: 20px;
-}
-
-.logotypef {
-    display: inline-block;
-    font-weight: 400;
-    margin-top: 24px;
-    margin-left: 2%;
-    vertical-align: top;
-    letter-spacing: 3.5px;
-    line-height: 150%;
-    font-size: 14px;
-}
-
-.csatypef {
-    display: inline-block;
-    font-weight: 400;
-    margin-top: 24px;
-    margin-left: 2%;
-    vertical-align: top;
-    letter-spacing: 3.5px;
-    line-height: 150%;
-    font-size: 14px;
-}
-
-.typeformtitle {
-    font-weight: 300;
 }
