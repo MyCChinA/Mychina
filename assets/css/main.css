@@ -4,6 +4,19 @@
     
 }
 
+@keyframes nihello {
+    0% {opacity: 0;}
+    50% {opacity:1;}
+    100% {opacity: 0;}
+
+}
+@keyframes helloni {
+    0% {opacity: 1;}
+    50% {opacity:0;}
+    100% {opacity: 1;}
+}
+
+
 body { 	width:100%; 
 	margin-top: -13px;
 	margin-left: 0; 
@@ -22,8 +35,6 @@ body { 	width:100%;
     height:75px;
     width: 850px; 
     backdrop-filter: blur(10px);
-
-
 }
 
 .logo {
@@ -56,6 +67,30 @@ body { 	width:100%;
 
 .typeformtitle {
     font-weight: 300;
+}
+
+#nihao {
+    position: absolute;
+   margin: 0 autol
+    animation: nihello 10s infinite;
+   max-width: 850px;
+
+
+}
+
+#hello {
+   position: absolute;
+    margin: 0 auto;
+   opacity: 0;
+   animation: helloni 10s infinite;
+   z-index: -1;
+   max-width: 850px;
+}
+
+.greet {
+    position: relative;
+    height: 12%;
+    left: 20%;
 }
 
 
@@ -115,5 +150,22 @@ body { 	width:100%;
 
 .register{
     margin-top: 12px;
+}
+
+#nihao {
+   position: absolute;
+  width: 50%;
+  min-width: 313px;
+}
+ #hello {
+   position: absolute;
+   width: 50%;
+    opacity: 0;
+    min-width: 313px;
+}
+.greet {
+    position: relative;
+    height: 4%;
+    left: 5%;
 }
 }
