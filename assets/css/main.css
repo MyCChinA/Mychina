@@ -81,8 +81,8 @@ body { 	width:100%;
 
 #nihao {
     position: absolute;
-   margin: 0 autol
-    animation: nihello ease-in-out 10s infinite ;
+   margin: 0 auto;
+    animation: nihello ease-in-out 10s infinite 2s ;
    max-width: 850px;
 
 
@@ -92,7 +92,7 @@ body { 	width:100%;
    position: absolute;
     margin: 0 auto;
    opacity: 0;
-   animation: helloni ease-in-out 10s infinite ;
+   animation: helloni ease-in-out 10s infinite 2s;
    z-index: -1;
    max-width: 850px;
 }
@@ -111,8 +111,7 @@ body { 	width:100%;
 
 .recruit .QR{
     position: absolute;
-    max-width: 350px;
-    position: absolute;
+    max-width: 180px;
     bottom:10px;
     right: 10px;
 }
@@ -205,14 +204,14 @@ body { 	width:100%;
    position: absolute;
   width: 50%;
   min-width: 313px;
-  animation: nihello ease-in-out 10s infinite ;
+  animation: nihello ease-in-out 10s infinite 2s;
 }
  #hello {
    position: absolute;
    width: 50%;
     opacity: 0;
     min-width: 313px;
-     animation: helloni ease-in-out 10s infinite ;
+     animation: helloni ease-in-out 10s infinite 2s;
 }
 
 .content {
@@ -242,7 +241,7 @@ body { 	width:100%;
 
 .recruit .QR{
     position: absolute;
-    width: 40%;
+    width: 25%;
     bottom:10px;
     right: 3%;
 }
