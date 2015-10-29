@@ -6,13 +6,13 @@
 
 @keyframes nihello {
     0% {opacity: 0;}
-    50% {opacity:1;}
+    15% {opacity:1;}
     100% {opacity: 0;}
 
 }
 @keyframes helloni {
     0% {opacity: 1;}
-    50% {opacity:0;}
+    15% {opacity:0;}
     100% {opacity: 1;}
 }
 
@@ -72,7 +72,7 @@ body { 	width:100%;
 #nihao {
     position: absolute;
    margin: 0 autol
-    animation: nihello 10s infinite;
+    animation: nihello ease-in-out 10s infinite 5s;
    max-width: 850px;
 
 
@@ -82,7 +82,7 @@ body { 	width:100%;
    position: absolute;
     margin: 0 auto;
    opacity: 0;
-   animation: helloni 10s infinite;
+   animation: helloni ease-in-out 10s infinite 5s;
    z-index: -1;
    max-width: 850px;
 }
@@ -93,6 +93,13 @@ body { 	width:100%;
     left: 20%;
 }
 
+.recruit {
+    position: relative;
+    max-width: 850px;
+    left: 20%;
+    top: -140px;
+    z-index: -1;
+}
 
 /*
 .registerTitle{
@@ -156,18 +163,25 @@ body { 	width:100%;
    position: absolute;
   width: 50%;
   min-width: 313px;
-  animation: nihello 10s infinite;
+  animation: nihello ease-in-out 10s infinite 5s;
 }
  #hello {
    position: absolute;
    width: 50%;
     opacity: 0;
     min-width: 313px;
-     animation: helloni 10s infinite;
+     animation: helloni ease-in-out 10s infinite 5s;
 }
 .greet {
     position: relative;
     height: 4%;
     left: 5%;
+}
+.recruit {
+    position: relative;
+    min-width: 400px;
+    top: -30px;
+    left:-5%;
+    z-index: -1;
 }
 }
