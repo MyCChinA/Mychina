@@ -1,6 +1,5 @@
 *{
 	font-family: 'Open Sans', sans-serif;
-   
     
 }
 
@@ -20,10 +19,15 @@
 body { 	width:100%; 
 	margin-top: -13px;
 	margin-left: 0; 
-    height: 5000px;
+    height: 100%;
+    overflow-x:hidden; 
+
 	}
 
 #top {width:100%; margin-top: -13px;height: 5px;}
+
+
+
 
 .titlelink {
     text-decoration: none;
@@ -69,6 +73,12 @@ body { 	width:100%;
     font-weight: 300;
 }
 
+.content {
+    width: 850px;
+    margin: 0 auto;
+     overflow-x:hidden; 
+}
+
 #nihao {
     position: absolute;
    margin: 0 autol
@@ -90,14 +100,12 @@ body { 	width:100%;
 .greet {
     position: relative;
     height: 12%;
-    left: 20%;
 }
 
 .recruit {
     position: relative;
     max-width: 850px;
-    left: 20%;
-    top: -140px;
+    top:500px;
     z-index: -1;
 }
 
@@ -120,6 +128,7 @@ body { 	width:100%;
 	width: 100%;
  background: #eeeeee;
  backdrop-filter: blur(10px);
+ z-index: 5px;
 
 
 
@@ -172,16 +181,24 @@ body { 	width:100%;
     min-width: 313px;
      animation: helloni ease-in-out 10s infinite 5s;
 }
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+     overflow-x:hidden; 
+}
+
 .greet {
     position: relative;
     height: 4%;
     left: 5%;
+    z-index: -1;
 }
 .recruit {
     position: relative;
-    min-width: 400px;
-    top: -30px;
-    left:-5%;
+    width: 100%;
+    right: 0;
+    top: 150px;
     z-index: -1;
 }
 }
