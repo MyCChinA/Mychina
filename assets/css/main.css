@@ -156,12 +156,14 @@ body { 	width:100%;
    position: absolute;
   width: 50%;
   min-width: 313px;
+  animation: nihello 10s infinite;
 }
  #hello {
    position: absolute;
    width: 50%;
     opacity: 0;
     min-width: 313px;
+     animation: helloni 10s infinite;
 }
 .greet {
     position: relative;
