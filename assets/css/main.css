@@ -233,6 +233,13 @@ body { 	width:100%;
     right: 0;
     top: 200px;
 }
+
+.recruit .fit {
+   position: relative;
+   right: 0;
+}
+
+
 .recruit .QR{
     position: absolute;
     width: 200px;
