@@ -76,7 +76,7 @@ body { 	width:100%;
 .content {
     width: 850px;
     margin: 0 auto;
-     overflow-x:hidden; 
+
 }
 
 #nihao {
@@ -109,6 +109,22 @@ body { 	width:100%;
     z-index: -1;
 }
 
+
+.register{
+    display: block;
+    position: relative;
+    top:550px;
+}
+
+.register .form {
+    font-weight: 600;
+    position: absolute;
+    top:0px;
+    z-index: 1;
+    color: white;
+}
+
+
 /*
 .registerTitle{
     position: fixed;
@@ -128,7 +144,6 @@ body { 	width:100%;
 	width: 100%;
  background: #eeeeee;
  backdrop-filter: blur(10px);
- z-index: 5px;
 
 
 
@@ -165,7 +180,17 @@ body { 	width:100%;
 }
 
 .register{
-    margin-top: 12px;
+    display: block;
+    position: relative;
+    top:250px;
+}
+
+.register .form {
+    font-weight: 600;
+    position: absolute;
+    top:0px;
+    z-index: 1;
+    color: white;
 }
 
 #nihao {
@@ -185,20 +210,20 @@ body { 	width:100%;
 .content {
     width: 100%;
     margin: 0 auto;
-     overflow-x:hidden; 
+      
 }
 
 .greet {
     position: relative;
     height: 4%;
     left: 5%;
-    z-index: -1;
+
 }
 .recruit {
     position: relative;
     width: 100%;
     right: 0;
-    top: 150px;
-    z-index: -1;
+    top: 200px;
+
 }
 }
