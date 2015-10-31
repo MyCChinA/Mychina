@@ -334,7 +334,7 @@ body { 	width:100%;
 
 .greet {
     position: relative;
-    width: 80%;
+    width: 70%;
     left: 5%;
 
 }
@@ -348,6 +348,7 @@ body { 	width:100%;
 .recruit .fit {
    position: relative;
    right: 0;
+   width: 95%;
 }
 
 
