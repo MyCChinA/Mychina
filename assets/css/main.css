@@ -291,7 +291,7 @@ body { 	width:100%;
     width: 113px;
     font-weight: 400;
     margin-top: 19px;
-    margin-left: 3%;
+    margin-left: 1%;
     vertical-align: top;
     letter-spacing: 2px;
     line-height: 10px;
@@ -314,24 +314,18 @@ body { 	width:100%;
 
 #nihao {
    position: absolute;
-<<<<<<< HEAD
+
 width: 40%;
   min-width: 300px;
-=======
-  width: 50%;
-  min-width: 313px;
->>>>>>> parent of 501f8d1... iphone 5 debug
+
   animation: nihello ease-in-out 10s infinite 2s;
 }
  #hello {
    position: absolute;
    width: 40%;
     opacity: 0;
-<<<<<<< HEAD
     min-width: 300px;
-=======
-    min-width: 313px;
->>>>>>> parent of 501f8d1... iphone 5 debug
+
      animation: helloni ease-in-out 10s infinite 2s;
 }
 
