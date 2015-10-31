@@ -301,7 +301,7 @@ body { 	width:100%;
 .register{
     display: block;
     position: relative;
-    top:250px;
+    top:150px;
 }
 
 .register .form {
@@ -314,15 +314,15 @@ body { 	width:100%;
 
 #nihao {
    position: absolute;
-  width: 50%;
-  /*min-width: 313px;*/
+width: 40%;
+  min-width: 300px;
   animation: nihello ease-in-out 10s infinite 2s;
 }
  #hello {
    position: absolute;
-   width: 50%;
+   width: 40%;
     opacity: 0;
-    /*min-width: 313px;*/
+    min-width: 300px;
      animation: helloni ease-in-out 10s infinite 2s;
 }
 
@@ -343,7 +343,7 @@ body { 	width:100%;
     position: relative;
     width: 100%;
     right: 0;
-    top: 200px;
+    top: 120px;
 }
 
 .recruit .fit {
