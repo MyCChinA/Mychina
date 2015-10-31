@@ -279,7 +279,7 @@ body { 	width:100%;
     width: 118px;
     font-weight: 400;
     margin-top: 19px;
-    margin-left: 1%;
+    margin-left: 3%;
     vertical-align: top;
     letter-spacing: 2px;
     line-height: 10px;
@@ -291,7 +291,7 @@ body { 	width:100%;
     width: 113px;
     font-weight: 400;
     margin-top: 19px;
-    margin-left: 1%;
+    margin-left: 3%;
     vertical-align: top;
     letter-spacing: 2px;
     line-height: 10px;
@@ -336,7 +336,7 @@ body { 	width:100%;
     position: relative;
     width: 300px;
     left: 5%;
-    overflow-x:hidden;
+   /* overflow-x:hidden;*/
 
 }
 .recruit {
