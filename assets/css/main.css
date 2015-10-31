@@ -334,8 +334,9 @@ body { 	width:100%;
 
 .greet {
     position: relative;
-    width: 70%;
+    width: 300px;
     left: 5%;
+    overflow-x:hidden;
 
 }
 .recruit {
